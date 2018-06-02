@@ -1,0 +1,40 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+;",
+        "command": "findJump.activate"
+    },
+    {
+        "key": "cmd+k cmd+d",
+        "command": "workbench.view.debug"
+    },
+    {
+        "key": "shift+cmd+d",
+        "command": "-workbench.view.debug"
+    },
+    {
+        "key": "ctrl+;",
+        "command": "extension.jumpy-word"
+    },
+    {
+        "key": "alt+right",
+        "command": "-cursorWordEndRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+right",
+        "command": "cursorWordStartRight"
+    },
+    {
+        "key": "cmd+0",
+        "command": "workbench.action.focusSideBar"
+    },
+    {
+        "key": "cmd+0",
+        "command": "-workbench.action.focusSideBar"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+    }
+]

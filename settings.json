@@ -1,0 +1,23 @@
+{
+    "workbench.colorTheme": "Night Owl",
+    // "editor.fontFamily": "Source Code Pro, Menlo, 'Courier New', monospace",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "window.zoomLevel": 1,
+    "files.associations": {
+        "*.json": "jsonc"
+    },
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "editor.lineNumbers": "off",
+    "editor.glyphMargin": false,
+    "[html]": {
+        "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>?",
+    },
+    "editor.cursorStyle": "line",
+    "editor.renderLineHighlight": "all",
+    "workbench.activityBar.visible": false,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.explorerKind": "external"
+}
