@@ -1,0 +1,8 @@
+{
+    "window.zoomLevel": 1,
+    "workbench.activityBar.visible": false,
+    "editor.fontFamily": "Fira Code, Menlo",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Ayu Mirage",
+    "debug.hideActionBar": true,
+}

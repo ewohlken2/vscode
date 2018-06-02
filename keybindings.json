@@ -1,0 +1,32 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+;",
+        "command": "extension.jumpy-word",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "-solargraph.search"
+    },
+    {
+        "key": "cmd+k cmd+r",
+        "command": "workbench.action.files.revealActiveFileInWindows"
+    },
+    {
+        "key": "cmd+k r",
+        "command": "-workbench.action.files.revealActiveFileInWindows"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+        "key": "cmd+r",
+        "command": "workbench.action.gotoSymbol"
+    },
+    {
+        "key": "shift+cmd+o",
+        "command": "-workbench.action.gotoSymbol"
+    }
+]
