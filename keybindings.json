@@ -1,8 +1,8 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     {
-        "key": "ctrl+;",
         "command": "extension.jumpy-word",
+        "key": "ctrl+;",
         "when": "editorTextFocus"
     },
     {
@@ -18,15 +18,32 @@
         "command": "-workbench.action.files.revealActiveFileInWindows"
     },
     {
-        "key": "shift+cmd+r",
-        "command": "workbench.files.action.showActiveFileInExplorer"
-    },
-    {
         "key": "cmd+r",
         "command": "workbench.action.gotoSymbol"
     },
     {
         "key": "shift+cmd+o",
         "command": "-workbench.action.gotoSymbol"
+    },
+    {
+        "key": "cmd+k cmd+d",
+        "command": "workbench.view.debug"
+    },
+    {
+        "key": "shift+cmd+d",
+        "command": "-workbench.view.debug"
+    },
+    {
+        "key": "alt+right",
+        "command": "-cursorWordEndRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+right",
+        "command": "cursorWordStartRight"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "workbench.files.action.showActiveFileInExplorer"
     }
 ]
